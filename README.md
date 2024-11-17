@@ -9,7 +9,6 @@ Dampak: Tidak memberikan informasi yang jelas dan tidak memanfaatkan elemen sema
 Solusi: Tambahkan ID dan konten yang relevan untuk mencerminkan fungsi setiap bagian, seperti berikut:
 html
 # Perbaikan kode
-
 <section id="home">
     <h2>Beranda</h2>
     <p>Selamat datang di panduan HTML5 semantik.</p>
@@ -23,19 +22,16 @@ html
     <p>Penggunaan elemen semantik dapat meningkatkan struktur dan aksesibilitas web.</p>
 </section>
 
-
 # Kurangnya Tag Semantik Tambahan
 Masalah: Elemen seperti <article> atau <aside> tidak digunakan untuk menambah nilai semantik pada halaman.
 Dampak: Halaman kurang terstruktur secara semantik, terutama untuk konten yang membutuhkan pengelompokan lebih baik.
 Solusi: Tambahkan elemen semantik jika relevan, misalnya:
 html
 # Perbaikan kode
-
 <article>
     <h3>Manfaat Elemen Semantik</h3>
     <p>Elemen semantik membantu SEO dan meningkatkan pengalaman pengguna.</p>
 </article>
-
 # Kekurangan dalam CSS
 # Warna Tidak Konsisten
 
