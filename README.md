@@ -1,3 +1,8 @@
+# Profil
+Nama    : Muhammad Hernanda Fikri Wijayanto
+<br>
+NIM     : 2205101045
+
 # SEMANTIC-HTML
 Latihan Praktikum SEMANTIC HTML
 
