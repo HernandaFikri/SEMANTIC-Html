@@ -9,6 +9,7 @@ Dampak: Tidak memberikan informasi yang jelas dan tidak memanfaatkan elemen sema
 Solusi: Tambahkan ID dan konten yang relevan untuk mencerminkan fungsi setiap bagian, seperti berikut:
 html
 # Perbaikan kode
+```html
 <section id="home">
     <h2>Beranda</h2>
     <p>Selamat datang di panduan HTML5 semantik.</p>
@@ -21,17 +22,19 @@ html
     <h2>Kesimpulan</h2>
     <p>Penggunaan elemen semantik dapat meningkatkan struktur dan aksesibilitas web.</p>
 </section>
-
+```
 # Kurangnya Tag Semantik Tambahan
 Masalah: Elemen seperti <article> atau <aside> tidak digunakan untuk menambah nilai semantik pada halaman.
 Dampak: Halaman kurang terstruktur secara semantik, terutama untuk konten yang membutuhkan pengelompokan lebih baik.
 Solusi: Tambahkan elemen semantik jika relevan, misalnya:
 html
 # Perbaikan kode
+```html
 <article>
     <h3>Manfaat Elemen Semantik</h3>
     <p>Elemen semantik membantu SEO dan meningkatkan pengalaman pengguna.</p>
 </article>
+```
 # Kekurangan dalam CSS
 # Warna Tidak Konsisten
 
@@ -40,11 +43,12 @@ Dampak: Membuat desain tampak kurang profesional.
 Solusi: Gunakan skema warna yang konsisten dan sesuai prinsip desain. Misalnya:
 css
 
-Perbaikan kode
+# Perbaikan kode
+```css
 nav {
     background: #8E8E8E; /* Warna seragam dengan elemen lainnya */
 }
-
+```
 # Navigasi Tidak Fleksibel
 
 Masalah: Navigasi (<nav>) memiliki area kecil (20%) dan kurang responsif untuk perangkat dengan ukuran layar kecil.
@@ -52,7 +56,7 @@ Dampak: Navigasi menjadi sulit digunakan pada layar kecil.
 Solusi: Tambahkan media query untuk menyesuaikan ukuran nav pada perangkat kecil. Contoh:
 css
 # Perbaikan kode
-
+```css
 @media (max-width: 768px) {
     body {
         grid-template-areas:
@@ -67,7 +71,7 @@ css
         text-align: center;
     }
 }
-
+```
 # Elemen Tidak Sepenuhnya Responsif
 
 Masalah: Tampilan section terlalu statis karena hanya mengandalkan grid tanpa fleksibilitas tambahan.
@@ -75,12 +79,12 @@ Dampak: Ketika layar berubah, distribusi area mungkin terlihat tidak proporsiona
 Solusi: Tambahkan properti min-height atau max-width untuk menjaga proporsi. Contoh:
 css
 # Perbaikan kode
-
+```css
 section {
     min-height: 300px;
     padding: 20px;
 }
-
+```
 # Jarak Antar Elemen Kurang
 
 Masalah: grid-gap: 5px memberikan jarak terlalu kecil antar elemen, terutama untuk layar besar.
@@ -88,11 +92,11 @@ Dampak: Membuat desain terlihat padat dan tidak nyaman dipandang.
 Solusi: Tingkatkan jarak antar elemen. Contoh:
 css
 # Perbaikan kode
-
+```css
 body {
     grid-gap: 10px;
 }
-
+```
 # Tipografi Belum Optimal
 
 Masalah: Tidak ada pengaturan font yang jelas untuk elemen teks.
@@ -100,9 +104,11 @@ Dampak: Teks mungkin terlihat monoton dan sulit dibaca pada perangkat tertentu.
 Solusi: Tambahkan aturan font. Contoh:
 css
 # Perbaikan kode
-
+```css
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
 }
+```
+``
